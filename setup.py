@@ -13,7 +13,7 @@ from setuptools import setup
 setup(
     name='Flask-Elasticsearch',
     version='0.0.1',
-    url='https://flask-elasticsearch.github.io/',
+    url='https://pfig.github.io/flask-elasticsearch',
     license='MIT',
     author='Pedro Figueiredo',
     author_email='pfig@me.com',
