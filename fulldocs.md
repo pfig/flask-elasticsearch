@@ -19,6 +19,6 @@ layout: default
 * `ELASTICSEARCH_PASSWORD`<br>
   The password to use to connect to Elasticsearch, if any.
 
-* `ELASTICSEARCH_USE_SSL`
+* `ELASTICSEARCH_USE_SSL`<br>
   Whether to use SSL when connecting to Elasticsearch.
   Defaults to `False`.
