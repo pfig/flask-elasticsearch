@@ -1,3 +1,9 @@
+.. image:: https://travis-ci.org/pfig/flask-elasticsearch.svg?branch=master
+    :target: https://travis-ci.org/pfig/flask-elasticsearch
+
+.. image:: https://travis-ci.org/pfig/flask-elasticsearch.svg?branch=develop
+    :target: https://travis-ci.org/pfig/flask-elasticsearch
+
 An Elasticsearch connector for Flask.
 
 Flask-Elasticsearch should be used in the following way::
