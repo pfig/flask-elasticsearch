@@ -1,0 +1,16 @@
+{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
+<!doctype html>
+<html>
+{% include head.html %}
+<body>
+  <div class="wrapper">
+    {% include sidebar.html %}
+    <section>
+      {% include header.html %}
+      {{ content | expand_urls: root_url }}
+    </section>
+    {% include footer.html %}
+  </div>
+  <script src="javascripts/scale.fix.js"></script>
+</body>
+</html>
