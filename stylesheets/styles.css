@@ -133,6 +133,11 @@ pre {
   overflow-x: auto;
 }
 
+p code {
+  color: #333;
+  background: #f8f8f8;
+}
+
 table {
   width:100%;
   border-collapse:collapse;
