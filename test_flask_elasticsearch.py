@@ -11,7 +11,7 @@ class FlaskElasticsearchTestCase(unittest.TestCase):
 
     def test_extension_supports_factory_pattern(self):
         es = Elasticsearch()
-        self.assertIsNotNone(es)
+        self.assertTrue(es is not None)
 
     def test_default_values_are_set(self):
         es = Elasticsearch()
